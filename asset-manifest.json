@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/JungSangHyup/Do_It_movie_app/static/css/main.7fe26c82.chunk.css",
-    "main.js": "/JungSangHyup/Do_It_movie_app/static/js/main.d7a9c4ec.chunk.js",
-    "main.js.map": "/JungSangHyup/Do_It_movie_app/static/js/main.d7a9c4ec.chunk.js.map",
-    "runtime-main.js": "/JungSangHyup/Do_It_movie_app/static/js/runtime-main.9680830b.js",
-    "runtime-main.js.map": "/JungSangHyup/Do_It_movie_app/static/js/runtime-main.9680830b.js.map",
-    "static/js/2.bb1d72e6.chunk.js": "/JungSangHyup/Do_It_movie_app/static/js/2.bb1d72e6.chunk.js",
-    "static/js/2.bb1d72e6.chunk.js.map": "/JungSangHyup/Do_It_movie_app/static/js/2.bb1d72e6.chunk.js.map",
-    "index.html": "/JungSangHyup/Do_It_movie_app/index.html",
-    "static/css/main.7fe26c82.chunk.css.map": "/JungSangHyup/Do_It_movie_app/static/css/main.7fe26c82.chunk.css.map",
-    "static/js/2.bb1d72e6.chunk.js.LICENSE.txt": "/JungSangHyup/Do_It_movie_app/static/js/2.bb1d72e6.chunk.js.LICENSE.txt"
+    "main.css": "/Do_It_movie_app/static/css/main.7fe26c82.chunk.css",
+    "main.js": "/Do_It_movie_app/static/js/main.d7a9c4ec.chunk.js",
+    "main.js.map": "/Do_It_movie_app/static/js/main.d7a9c4ec.chunk.js.map",
+    "runtime-main.js": "/Do_It_movie_app/static/js/runtime-main.206d7eed.js",
+    "runtime-main.js.map": "/Do_It_movie_app/static/js/runtime-main.206d7eed.js.map",
+    "static/js/2.bb1d72e6.chunk.js": "/Do_It_movie_app/static/js/2.bb1d72e6.chunk.js",
+    "static/js/2.bb1d72e6.chunk.js.map": "/Do_It_movie_app/static/js/2.bb1d72e6.chunk.js.map",
+    "index.html": "/Do_It_movie_app/index.html",
+    "static/css/main.7fe26c82.chunk.css.map": "/Do_It_movie_app/static/css/main.7fe26c82.chunk.css.map",
+    "static/js/2.bb1d72e6.chunk.js.LICENSE.txt": "/Do_It_movie_app/static/js/2.bb1d72e6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9680830b.js",
+    "static/js/runtime-main.206d7eed.js",
     "static/js/2.bb1d72e6.chunk.js",
     "static/css/main.7fe26c82.chunk.css",
     "static/js/main.d7a9c4ec.chunk.js"
