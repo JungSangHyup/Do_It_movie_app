@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## Do it 클론코딩 영화 평점 서비스
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+영화 평점 서비스 라는데 인터엑티브한 작용 없이 데이터를 들고와 화면에 구성하는 작업만 한다.
 
-## Available Scripts
+하지만 리액트를 처음한다면 기초적으로 해볼만한 책이다. 책값도 싸다
 
-In the project directory, you can run:
+#### 데이터흐름
 
-### `npm start`
+yts 에서 영화목록을 조회할 수 있는 api 를 제공한다. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+문제는 주기적으로 키값이 바뀌기 때문에 고정적으로 들고 올 수 있는 proxy 서버를 니꼴샘이 만듬
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ https://yts-proxy.now.sh/list_movies.json?sort_by=rating
 
-### `npm test`
+에서 json 데이터를 들고온다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+이제 이걸로 화면구성을 하면 끝!
 
-### `npm run build`
+![화면 캡처 2021-10-06 112619](https://user-images.githubusercontent.com/51068026/136131247-da6f0f51-3a64-4317-a03d-0d2d96731aae.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+기초적인 리액트의 JSX, 컴포넌트, CSS를 경험해볼 수 있다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+이걸 NEXT JS로 리팩터링 하는 프로젝트도 진행해보는 중
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 깃허브 사이트와의 연동
 
-### `npm run eject`
+ 이걸 깃허브에서 서비스하게 바꾸어 볼 수 있는게 흥미진진했다.
+ 
+ 업로드 사이트 : https://JungSangHyup.github.io/Do_It_movie_app
+ 
+ 여기에서 직접 사이트를 볼 수 있다.
+ 
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
